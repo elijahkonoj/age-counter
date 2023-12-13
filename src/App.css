@@ -1,0 +1,117 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: hsl(0, 0%, 86%);
+}
+
+.container {
+  background-color: hsl(0, 1%, 44%);
+  width: 1220px;
+  border-bottom-right-radius: 140px;
+}
+.year-span {
+  color: aqua;
+  font-size: 40px;
+}
+.month-span {
+  color: aqua;
+  font-size: 40px;
+}
+.day-span {
+  color: aqua;
+  font-size: 40px;
+}
+
+.time {
+  font-size: 40px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+
+}
+
+.label {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  opacity: 0.5;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+input {
+  font-weight: bold;
+  font-size: 32px;
+  margin: 5px;
+  width: 100px;
+  height: 30px;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+input:focus + label {
+  color: red;
+}
+
+.page {
+  margin-top: 5px;
+  padding-bottom: 20px;
+  text-align: center;
+  
+
+}
+
+ hr {
+  width: 850px;
+  height: 2px;
+  margin-left: 120px;
+ }
+
+ .icon-container {
+   display: flex;
+ }
+ .icon {
+  margin-right: 220px;
+  margin-top: -10px;
+  color: purple;
+ }
+ .error-msg {
+  color: red;
+  margin-left: 35px;
+ }
+
+ .form-input {
+   display: inline-block;
+ }
+
+ .label-error {
+    color: red;
+ }
+
+ .span-empty {
+   color: aqua;
+ }
+@media screen and (max-width: 600px){
+   body {
+    background-color: aqua;
+   }
+   .year-span {
+    color: black;
+    font-size: 40px;
+  }
+  .month-span {
+    color: black;
+    font-size: 40px;
+  }
+  .day-span {
+    color: black;
+    font-size: 40px;
+  }
+}
